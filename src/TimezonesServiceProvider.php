@@ -13,7 +13,7 @@ class TimezonesServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadViewsFrom(__DIR__.'/views', 'php8');
+        $this->loadViewsFrom(__DIR__.'/views', 'dungnv');
         // for users can customize their view, and run command php artisan vendor:publish
         $this->publishes([
             __DIR__.'/views' => base_path('resources/views/dungnv/timezones'),

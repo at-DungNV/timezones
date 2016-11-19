@@ -16,6 +16,6 @@ class TimezonesController extends Controller
         $current_time = ($timezone)
             ? Carbon::now(str_replace('-', '/', $timezone))
             : Carbon::now();
-        return view('php8::time', compact('current_time'));
+        return view('dungnv::time', compact('current_time'));
     }
 }
