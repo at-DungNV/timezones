@@ -1,4 +1,4 @@
 <?php
 
 
-Route::get('timezones/{timezone?}', 'laraveldaily\timezones\TimezonesController@index');
+Route::get('dungnv/{timezone?}', 'dungnv\timezones\TimezonesController@index');
